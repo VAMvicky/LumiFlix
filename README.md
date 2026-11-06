@@ -6,7 +6,7 @@
 
 *Katalog dari TMDB · video dari MovieBox · tanpa iklan · Nonton Bareng*
 
-[![Rilis](https://img.shields.io/github/v/release/vickyvam72/LumiBox?label=rilis&color=1F5FD6&style=for-the-badge)](https://github.com/vickyvam72/LumiBox/releases/latest)
+[![Rilis](https://img.shields.io/github/v/release/VAMvicky/LumiFlix?label=rilis&color=1F5FD6&style=for-the-badge)](https://github.com/VAMvicky/LumiFlix/releases/latest)
 [![Android](https://img.shields.io/badge/Android-8.0%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white)](#-kebutuhan-sistem)
 [![Kotlin](https://img.shields.io/badge/Kotlin-Jetpack%20Compose-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](#%EF%B8%8F-teknologi)
 [![Rust](https://img.shields.io/badge/Rust-core-B7410E?style=for-the-badge&logo=rust&logoColor=white)](#%EF%B8%8F-teknologi)
@@ -90,7 +90,7 @@
 
 ## ⬇️ Unduh & Pasang
 
-1. Buka halaman **[Releases](https://github.com/vickyvam72/LumiBox/releases/latest)**.
+1. Buka halaman **[Releases](https://github.com/VAMvicky/LumiFlix/releases/latest)**.
 2. Di bagian **Assets**, unduh `LumiBox-v2.1.apk`.
 3. Buka file yang sudah diunduh. Kalau Android meminta, izinkan **"Instal aplikasi tidak dikenal"** untuk browser atau pengelola file yang kamu pakai.
 4. Tekan **Instal**. Selesai! 🎉
@@ -199,8 +199,8 @@ android/app/src/main/java/com/moviebox/app/
 
 ### 🏗️ Build dari kode sumber
 ```bash
-git clone https://github.com/vickyvam72/LumiBox.git
-cd LumiBox/bridge
+git clone https://github.com/VAMvicky/LumiFlix.git
+cd LumiFlix/bridge
 cargo ndk -t arm64-v8a -t armeabi-v7a --platform 26 -o ../android/app/src/main/jniLibs build --release
 cd ../android
 gradle assembleRelease   # Gradle 8.11.1, JDK 17, Android SDK 35, NDK
@@ -219,8 +219,8 @@ Lumi Box bisa berdiri berkat proyek dan layanan luar biasa berikut. **Terima kas
 | Proyek | Yang dipakai / dipelajari Lumi Box |
 |---|---|
 | [**MovieBox-Tui**](https://github.com/mesamirh/MovieBox-Tui) oleh mesamirh | Inti Rust: klien MovieBox, tanda tangan permintaan, adaptor data (MIT / Apache-2.0) |
-| **Moviebox-API** & **moviebox-internal-api** oleh vickyvam72 | Jalur video web H5, identitas aplikasi terbaru, apig, dan cara memfilter video "notice" |
-| [**LumiTube**](https://github.com/vickyvam72/LumiTube) oleh vickyvam72 | Cara kerja Watch Together (ntfy + AES-GCM), layar perkenalan, dan gaya dokumentasi |
+| **Moviebox-API** & **moviebox-internal-api** oleh VAMvicky | Jalur video web H5, identitas aplikasi terbaru, apig, dan cara memfilter video "notice" |
+| [**LumiTube**](https://github.com/VAMvicky/LumiTube) oleh VAMvicky | Cara kerja Watch Together (ntfy + AES-GCM), layar perkenalan, dan gaya dokumentasi |
 | [**moviebox-api**](https://github.com/Simatwa/moviebox-api) oleh Simatwa | Pencarian web MovieBox (h5) dan cara mendapatkan cookie sesinya |
 | **Stremio Cinemeta** & **EasyRatings** | Meta judul (IMDb) dan katalog cadangan saat kunci TMDB belum diisi |
 
@@ -248,7 +248,7 @@ Gunakan dengan risiko sendiri dan patuhi hukum hak cipta di negaramu.
 
 ## 📄 Lisensi
 
-Hak cipta © 2026 **vickyvam72**.
+Hak cipta © 2026 **VAMvicky**.
 
 Lumi Box dirilis di bawah **[GNU General Public License v3.0](LICENSE)**. Folder `core/` berasal dari [MovieBox-Tui](https://github.com/mesamirh/MovieBox-Tui) dan tetap mengikuti lisensi aslinya (MIT atau Apache-2.0).
 Lumi Box diberikan **tanpa jaminan apa pun**. Lihat file [LICENSE](LICENSE) untuk teks lengkapnya (berbahasa Inggris).

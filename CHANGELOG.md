@@ -33,7 +33,7 @@ Semua perubahan penting Lumi Box. Versi terbaru di paling atas.
 - Video web yang ditolak server (HTTP 429/403): identitas browser lengkap, jalur web **mzfi.me**, dan coba ulang dengan alamat asal situs lain.
 
 ### 🔐 Repo & build
-- Pindah ke repo baru **[vickyvam72/LumiBox](https://github.com/vickyvam72/LumiBox)**.
+- Pindah ke repo baru **[VAMvicky/LumiFlix](https://github.com/VAMvicky/LumiFlix)**.
 - Kunci tanda tangan APK dipindah ke **GitHub Actions Secrets**; tidak ada lagi keystore di repo.
 - Satu rilis per versi (`LumiBox-v2.0.apk`), dengan catatan rilis dari `release-notes/`.
 - Dokumentasi lengkap: README (Indonesia & Inggris), panduan, FAQ, dan **Terima Kasih**.

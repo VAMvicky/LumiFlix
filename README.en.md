@@ -6,7 +6,7 @@
 
 *Catalog from TMDB · video from MovieBox · no ads · Watch Together*
 
-[![Release](https://img.shields.io/github/v/release/vickyvam72/LumiBox?label=release&color=1F5FD6&style=for-the-badge)](https://github.com/vickyvam72/LumiBox/releases/latest)
+[![Release](https://img.shields.io/github/v/release/VAMvicky/LumiFlix?label=release&color=1F5FD6&style=for-the-badge)](https://github.com/VAMvicky/LumiFlix/releases/latest)
 [![Android](https://img.shields.io/badge/Android-8.0%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white)](#-requirements)
 [![Kotlin](https://img.shields.io/badge/Kotlin-Jetpack%20Compose-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](#%EF%B8%8F-tech-stack)
 [![Rust](https://img.shields.io/badge/Rust-core-B7410E?style=for-the-badge&logo=rust&logoColor=white)](#%EF%B8%8F-tech-stack)
@@ -90,7 +90,7 @@
 
 ## ⬇️ Download & Install
 
-1. Open the **[Releases](https://github.com/vickyvam72/LumiBox/releases/latest)** page.
+1. Open the **[Releases](https://github.com/VAMvicky/LumiFlix/releases/latest)** page.
 2. Under **Assets**, download `LumiBox-v2.1.apk`.
 3. Open the downloaded file. If Android asks, allow **"Install unknown apps"** for your browser or file manager.
 4. Tap **Install**. Done! 🎉
@@ -199,8 +199,8 @@ android/app/src/main/java/com/moviebox/app/
 
 ### 🏗️ Building from source
 ```bash
-git clone https://github.com/vickyvam72/LumiBox.git
-cd LumiBox/bridge
+git clone https://github.com/VAMvicky/LumiFlix.git
+cd LumiFlix/bridge
 cargo ndk -t arm64-v8a -t armeabi-v7a --platform 26 -o ../android/app/src/main/jniLibs build --release
 cd ../android
 gradle assembleRelease   # Gradle 8.11.1, JDK 17, Android SDK 35, NDK
@@ -219,8 +219,8 @@ Lumi Box stands on the shoulders of these wonderful projects and services. **A h
 | Project | What Lumi Box uses / learned |
 |---|---|
 | [**MovieBox-Tui**](https://github.com/mesamirh/MovieBox-Tui) by mesamirh | Rust core: MovieBox client, request signing, data adapters (MIT / Apache-2.0) |
-| **Moviebox-API** & **moviebox-internal-api** by vickyvam72 | The web H5 video route, the newest app identity, apig, and filtering "notice" videos |
-| [**LumiTube**](https://github.com/vickyvam72/LumiTube) by vickyvam72 | How Watch Together works (ntfy + AES-GCM), the welcome screens, and the docs style |
+| **Moviebox-API** & **moviebox-internal-api** by VAMvicky | The web H5 video route, the newest app identity, apig, and filtering "notice" videos |
+| [**LumiTube**](https://github.com/VAMvicky/LumiTube) by VAMvicky | How Watch Together works (ntfy + AES-GCM), the welcome screens, and the docs style |
 | [**moviebox-api**](https://github.com/Simatwa/moviebox-api) by Simatwa | MovieBox web (h5) search and how to get its session cookie |
 | **Stremio Cinemeta** & **EasyRatings** | Title metadata (IMDb) and the fallback catalog when no TMDB key is set |
 
@@ -248,7 +248,7 @@ Use at your own risk and respect the copyright laws of your country.
 
 ## 📄 License
 
-Copyright © 2026 **vickyvam72**.
+Copyright © 2026 **VAMvicky**.
 
 Lumi Box is released under the **[GNU General Public License v3.0](LICENSE)**. The `core/` folder comes from [MovieBox-Tui](https://github.com/mesamirh/MovieBox-Tui) and keeps its original license (MIT or Apache-2.0).
 Lumi Box comes **with no warranty of any kind**. See [LICENSE](LICENSE) for the full text.
